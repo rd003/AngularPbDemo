@@ -7,6 +7,6 @@ export const routes: Routes = [
     {path:'',redirectTo:'/home',pathMatch:'full'},
     {path:'home',component:HomeComponent},
     {path:'books',component:BooksComponent},
-    {path:'add-books',component:AddBooksComponent},
-    {path:'edit-books/:id',component:AddBooksComponent},
+    {path:'add-book',component:AddBooksComponent},
+    {path:'edit-book/:id',component:AddBooksComponent},
 ];
